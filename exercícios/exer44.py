@@ -15,5 +15,3 @@ elif mtd_pgmt == 3:
     print('O produto vai custar duas parcelas de R${}.'.format(price / 2))
 elif mtd_pgmt == 4:
     print('O produto vai ser pago parcelado no valor de R${}.'.format(price*1.3))
-
-#teste
