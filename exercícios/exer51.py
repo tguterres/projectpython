@@ -2,6 +2,7 @@
 
 n = int(input('Digite o primeiro termo da PA: '))
 rz = int(input('Digite a razão da PA: '))
-for c in range(n, rz*10, rz):
-    print(c)
-
+dec = n+(10-1) * rz
+for c in range(n, dec+rz, rz):
+    print(c, end=' ')
+print('Fim.')
